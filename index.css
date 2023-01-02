@@ -1,0 +1,123 @@
+html,
+body {
+  min-height: 100vh;
+  background-color: #ffbfbf;
+  margin: 0;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.principal {
+  display: grid;
+  grid-template-rows: 200px 350px 254px;
+  align-items: center;
+  justify-items: center;
+}
+
+.container-1 {
+}
+.container-2 {
+  display: grid;
+  grid-template-columns: 250px 2fr 3fr;
+  height: 485px;
+  width: 880px;
+  box-shadow: 11px 17px 23px 5px rgba(0, 0, 0, 0.9);
+  -webkit-box-shadow: 11px 17px 23px 5px rgba(0, 0, 0, 0.9);
+  -moz-box-shadow: 11px 17px 23px 5px rgba(0, 0, 0, 0.9);
+  background-color: azure;
+}
+
+.sub-container-1 {
+  display: grid;
+  grid-template-rows: 4fr 2fr 1fr;
+  background-color: black;
+  color: white;
+}
+
+.sub-container-1 > div:nth-child(1) {
+  color: #ffbfbf;
+  margin: 10px;
+  font-size: 20px;
+}
+
+.sub-container-1 > div:nth-child(2) {
+  display: grid;
+  grid-template-rows: 1fr 30px;
+  color: white;
+  margin: 10px;
+  font-size: 10px;
+  align-items: flex-end;
+}
+
+.sub-container-1 > div:nth-child(3) {
+  display: grid;
+  grid-template-columns: 25px 25px 10px;
+  align-items: center;
+  color: white;
+  margin: 10px;
+}
+
+.sub-container-2 {
+  background-color: #ffffff;
+}
+
+.sub-container-3 {
+  background-color: rgb(255, 255, 255);
+  display: grid;
+  grid-template-columns: 5fr 1fr;
+}
+
+.sub-container-3 > div:nth-child(1) {
+  background-color: #ffffff;
+  display: grid;
+  grid-template-rows: 1fr 5fr 1fr;
+}
+
+.sub-container-3 > div:nth-child(2) {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  background-color: #ffffff;
+  align-items: center;
+  justify-content: center;
+}
+
+.sub-container-3 > div > div:nth-child(2) {
+  display: grid;
+  grid-template-rows: 3fr 2fr;
+}
+.sub-container-3 > div > div > div:nth-child(1) {
+  display: grid;
+  grid-template-rows: 2fr 1fr;
+}
+
+.sub-container-3 > div > div > div > div:nth-child(1) {
+  padding-left: 10px;
+  font-size: 50px;
+}
+.sub-container-3 > div > div > div > div:nth-child(2) {
+  padding-left: 10px;
+  font-size: 10px;
+  padding-right: 59px;
+}
+
+.sub-container-3 > div > div > div:nth-child(2) {
+  padding-left: 10px;
+}
+
+#boton {
+  background-color: black;
+  color: #ffffff;
+  width: 123px;
+  height: 40px;
+  border: none;
+}
+
+.possion {
+  position: absolute;
+  width: 127px;
+  height: 254px;
+  right: 855px;
+  top: 230px;
+  box-shadow: 57px 16px 36px 6px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 57px 16px 36px 6px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 57px 16px 36px 6px rgba(0, 0, 0, 0.75);
+}
